@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Gridline Design | Web Development Company</title>
+    <meta
+      name="description"
+      content="Advanced Gridline Design builds fast, modern, and scalable websites for growing businesses."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo">Advanced Gridline Design</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Web Development Company</p>
+            <h1>We design and build websites that help businesses grow.</h1>
+            <p class="lead">
+              From company websites to custom web apps, we create fast,
+              responsive, and user-focused digital products.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Start a Project</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>What you get</h2>
+            <ul>
+              <li>Modern, mobile-first design</li>
+              <li>Clean and maintainable code</li>
+              <li>SEO-ready pages</li>
+              <li>Reliable performance</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Services</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Business Websites</h3>
+              <p>Professional websites tailored to your brand and audience.</p>
+            </article>
+            <article class="card">
+              <h3>Web Applications</h3>
+              <p>Custom tools and platforms built for your workflows.</p>
+            </article>
+            <article class="card">
+              <h3>Website Optimization</h3>
+              <p>
+                Speed, usability, and conversion improvements for existing
+                sites.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-muted">
+        <div class="container two-col">
+          <div>
+            <h2>About Us</h2>
+            <p>
+              Advanced Gridline Design is a web development company focused on
+              practical, high-impact solutions. We combine thoughtful design
+              with strong engineering to deliver websites that look great and
+              perform even better.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <h2>Recent Work</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>E‑Commerce Redesign</h3>
+              <p>
+                Increased checkout completion through faster UX and cleaner
+                navigation.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Local Services Platform</h3>
+              <p>Built a booking-focused website that improved lead quality.</p>
+            </article>
+            <article class="card">
+              <h3>SaaS Landing Page</h3>
+              <p>
+                Crafted a conversion-focused launch page with analytics
+                integrations.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-muted">
+        <div class="container contact-wrap">
+          <div>
+            <h2>Contact Us</h2>
+            <p>
+              Tell us what you’re building and we’ll get back to you shortly.
+            </p>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" aria-label="Name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" aria-label="Email" required />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="4"
+                aria-label="Message"
+                required
+              ></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          © <span id="year"></span> Advanced Gridline Design. All rights
+          reserved.
+        </p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
