@@ -67,11 +67,9 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--white);
 }
 .card {
   padding: 1.25rem;
   border-radius: var(--radius);
-  border: 1px solid var(--surface-soft);
   margin-bottom: 1.5rem;
 }
