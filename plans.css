@@ -67,8 +67,16 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--white);
+  color: var(--primary);
 }
+
+h2,
+strong,
+a,
+.logo:hover {
+  color: var(--primary);
+}
+
 .plans-list,
 .maintenance-list,
 .app-plans-list,
@@ -84,7 +92,7 @@ body {
 .card {
   padding: 1.25rem;
   border-radius: var(--radius);
-  border: 1px solid var(--surface-soft);
+  border: 1px solid color-mix(in srgb, var(--primary) 35%, var(--surface-soft));
   background: var(--surface);
   margin-bottom: 0;
   display: flex;
