@@ -67,9 +67,21 @@ body {
 }
 
 .nav-links a:hover {
+  color: var(--primary);
 }
+
+h2 {
+  color: var(--primary);
+}
+
+p a,
+.logo:hover {
+  color: var(--primary);
+}
+
 .card {
   padding: 1.25rem;
   border-radius: var(--radius);
+  border: 1px solid color-mix(in srgb, var(--primary) 35%, var(--surface-soft));
   margin-bottom: 1.5rem;
 }
